@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: black;
+}
+.white{
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+.uppertable{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+}
+.black{
+    padding: 25px 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.inputtable{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.inputtable input{
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+.inputtable button{
+    padding: 10px 20px;
+    align-self: flex-start;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.result{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid gray;
+    margin-top:20px ;
+}
+.lonspan{
+    display: flex;
+    gap: 10rem;
+}
+.resulttable{
+    display: none;
+}
+.error{
+    display: none;
+    color: red;
+}
